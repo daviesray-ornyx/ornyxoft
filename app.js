@@ -11,7 +11,7 @@ var routes = require('./routes/routes');
 var app = express();
 
 
-mongoose.connect('mongodb://heroku_app27926743:heroku_app27926743@ds053449.mongolab.com:53449/heroku_app27926743');
+mongoose.connect('mongodb://ornyxoft-admin:ornyxoft-admin@ds053419.mongolab.com:53419/ornyxoft-db');
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
